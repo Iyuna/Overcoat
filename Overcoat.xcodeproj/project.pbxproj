@@ -12,6 +12,46 @@
 		7F04FFD59855694E0C09888F /* Pods_OvercoatTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D771E630FD6E31EBCD6BA7B /* Pods_OvercoatTests_OSX.framework */; };
 		B318DCE7C71E201814131CC5 /* Pods_OvercoatTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17E5C7426B15896D263941 /* Pods_OvercoatTests_iOS.framework */; };
 		BB55DCD3903B96F4CFC59FC9 /* Pods_OvercoatTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8495121DDC0CBDFF6053EC /* Pods_OvercoatTests_tvOS.framework */; };
+		DDA11DF01FA32FDA00990322 /* OVCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF4EA1C898BCC003BB99E /* OVCResponse.m */; };
+		DDA11DF11FA32FDA00990322 /* OVCURLMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF4EC1C898BCC003BB99E /* OVCURLMatcher.m */; };
+		DDA11DF21FA32FDA00990322 /* NSDictionary+Overcoat.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF4E21C898BCC003BB99E /* NSDictionary+Overcoat.m */; };
+		DDA11DF31FA32FDA00990322 /* OVCModelResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF4E81C898BCC003BB99E /* OVCModelResponseSerializer.m */; };
+		DDA11DF41FA32FDA00990322 /* OVCHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF4E61C898BCC003BB99E /* OVCHTTPSessionManager.m */; };
+		DDA11DF51FA32FDA00990322 /* NSError+OVCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF4E41C898BCC003BB99E /* NSError+OVCResponse.m */; };
+		DDA11DF71FA32FDA00990322 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5DC1C8AAA5F003BB99E /* AFNetworking.framework */; };
+		DDA11DF81FA32FDA00990322 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5DD1C8AAA5F003BB99E /* Mantle.framework */; };
+		DDA11DFA1FA32FDA00990322 /* OVCHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4E51C898BCC003BB99E /* OVCHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11DFB1FA32FDA00990322 /* NSError+OVCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4E31C898BCC003BB99E /* NSError+OVCResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11DFC1FA32FDA00990322 /* NSDictionary+Overcoat.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4E11C898BCC003BB99E /* NSDictionary+Overcoat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11DFD1FA32FDA00990322 /* OVCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4ED1C898BCC003BB99E /* OVCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11DFE1FA32FDA00990322 /* OVCURLMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4EB1C898BCC003BB99E /* OVCURLMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11DFF1FA32FDA00990322 /* OVCModelResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4E71C898BCC003BB99E /* OVCModelResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E001FA32FDA00990322 /* OVCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4E91C898BCC003BB99E /* OVCResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E011FA32FDA00990322 /* Overcoat.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF4EE1C898BCC003BB99E /* Overcoat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E0C1FA3339B00990322 /* OVCManagedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5AF1C899E5C003BB99E /* OVCManagedStore.m */; };
+		DDA11E0D1FA3339B00990322 /* OVCManagedHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5AA1C899E5C003BB99E /* OVCManagedHTTPSessionManager.m */; };
+		DDA11E0E1FA3339B00990322 /* OVCManagedModelResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5AC1C899E5C003BB99E /* OVCManagedModelResponseSerializer.m */; };
+		DDA11E101FA3339B00990322 /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5C61C8AA9B0003BB99E /* Overcoat.framework */; };
+		DDA11E111FA3339B00990322 /* MTLManagedObjectAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF6071C8AAC94003BB99E /* MTLManagedObjectAdapter.framework */; };
+		DDA11E131FA3339B00990322 /* OVCManagedObjectSerializingContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5AD1C899E5C003BB99E /* OVCManagedObjectSerializingContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E141FA3339B00990322 /* OVCManagedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5AE1C899E5C003BB99E /* OVCManagedStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E151FA3339B00990322 /* OVCManagedModelResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5AB1C899E5C003BB99E /* OVCManagedModelResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E161FA3339B00990322 /* OVCManagedHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5A91C899E5C003BB99E /* OVCManagedHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E171FA3339B00990322 /* OvercoatCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B01C899E5C003BB99E /* OvercoatCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E221FA3340800990322 /* OVCHTTPSessionManager+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5B31C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.m */; };
+		DDA11E241FA3340800990322 /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5C61C8AA9B0003BB99E /* Overcoat.framework */; };
+		DDA11E251FA3340800990322 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF6091C8AAC94003BB99E /* PromiseKit.framework */; };
+		DDA11E271FA3340800990322 /* OvercoatPromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B41C899E5C003BB99E /* OvercoatPromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E281FA3340800990322 /* OVCHTTPSessionManager+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B21C899E5C003BB99E /* OVCHTTPSessionManager+PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E331FA3343000990322 /* OVCHTTPSessionManager+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5B71C899E5C003BB99E /* OVCHTTPSessionManager+ReactiveCocoa.m */; };
+		DDA11E351FA3343000990322 /* Overcoat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5C61C8AA9B0003BB99E /* Overcoat.framework */; };
+		DDA11E361FA3343000990322 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF411561DB812630001B612 /* ReactiveObjC.framework */; };
+		DDA11E381FA3343000990322 /* OvercoatReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B81C899E5C003BB99E /* OvercoatReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E391FA3343000990322 /* OVCHTTPSessionManager+ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5B61C899E5C003BB99E /* OVCHTTPSessionManager+ReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E421FA3345E00990322 /* OVCSocialRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5BB1C899E5C003BB99E /* OVCSocialRequestSerializer.m */; };
+		DDA11E441FA3345E00990322 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEF5DC1C8AAA5F003BB99E /* AFNetworking.framework */; };
+		DDA11E461FA3345E00990322 /* OvercoatSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5BC1C899E5C003BB99E /* OvercoatSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA11E471FA3345E00990322 /* OVCSocialRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5BA1C899E5C003BB99E /* OVCSocialRequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE0A79E31C8AAD11003DAA0C /* OVCManagedHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5A91C899E5C003BB99E /* OVCManagedHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE0A79E41C8AAD11003DAA0C /* OVCManagedHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEEF5AA1C899E5C003BB99E /* OVCManagedHTTPSessionManager.m */; };
 		FE0A79E51C8AAD11003DAA0C /* OVCManagedModelResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEEF5AB1C899E5C003BB99E /* OVCManagedModelResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,6 +189,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DDA11E4E1FA3378600990322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA11DEE1FA32FDA00990322;
+			remoteInfo = "Overcoat-watchOS";
+		};
+		DDA11E501FA3379600990322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA11DEE1FA32FDA00990322;
+			remoteInfo = "Overcoat-watchOS";
+		};
+		DDA11E541FA337C500990322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA11DEE1FA32FDA00990322;
+			remoteInfo = "Overcoat-watchOS";
+		};
 		FE0A79EC1C8AAD2D003DAA0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FEEEF4BD1C898AED003BB99E /* Project object */;
@@ -205,6 +266,11 @@
 		A0ECAE52B40F744AF5804C71 /* Pods-OvercoatTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OvercoatTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OvercoatTests-iOS/Pods-OvercoatTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A22EB654A20787EC45F8246B /* Pods-OvercoatTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OvercoatTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OvercoatTests-OSX/Pods-OvercoatTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7D4B58A080849176995E55 /* Pods-OvercoatTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OvercoatTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OvercoatTests-tvOS/Pods-OvercoatTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DDA11E061FA32FDA00990322 /* Overcoat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Overcoat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA11E1C1FA3339B00990322 /* OvercoatCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA11E2D1FA3340800990322 /* OvercoatPromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatPromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA11E3E1FA3343000990322 /* OvercoatReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA11E4C1FA3345F00990322 /* OvercoatSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A79DB1C8AACEB003DAA0C /* OvercoatCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A79F61C8AAD96003DAA0C /* OvercoatCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A7A0F1C8AADF7003DAA0C /* OvercoatPromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvercoatPromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -288,6 +354,50 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DDA11DF61FA32FDA00990322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11DF71FA32FDA00990322 /* AFNetworking.framework in Frameworks */,
+				DDA11DF81FA32FDA00990322 /* Mantle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E0F1FA3339B00990322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E101FA3339B00990322 /* Overcoat.framework in Frameworks */,
+				DDA11E111FA3339B00990322 /* MTLManagedObjectAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E231FA3340800990322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E241FA3340800990322 /* Overcoat.framework in Frameworks */,
+				DDA11E251FA3340800990322 /* PromiseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E341FA3343000990322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E351FA3343000990322 /* Overcoat.framework in Frameworks */,
+				DDA11E361FA3343000990322 /* ReactiveObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E431FA3345E00990322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E441FA3345E00990322 /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE0A79D71C8AACEB003DAA0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,6 +564,11 @@
 				FE10414E1C8AAFA700C3A1FD /* OvercoatReactiveCocoa.framework */,
 				FE10415D1C8AB06C00C3A1FD /* OvercoatSocial.framework */,
 				FE10416E1C8AB0EB00C3A1FD /* OvercoatSocial.framework */,
+				DDA11E061FA32FDA00990322 /* Overcoat.framework */,
+				DDA11E1C1FA3339B00990322 /* OvercoatCoreData.framework */,
+				DDA11E2D1FA3340800990322 /* OvercoatPromiseKit.framework */,
+				DDA11E3E1FA3343000990322 /* OvercoatReactiveCocoa.framework */,
+				DDA11E4C1FA3345F00990322 /* OvercoatSocial.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -625,6 +740,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		DDA11DF91FA32FDA00990322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11DFA1FA32FDA00990322 /* OVCHTTPSessionManager.h in Headers */,
+				DDA11DFB1FA32FDA00990322 /* NSError+OVCResponse.h in Headers */,
+				DDA11DFC1FA32FDA00990322 /* NSDictionary+Overcoat.h in Headers */,
+				DDA11DFD1FA32FDA00990322 /* OVCUtilities.h in Headers */,
+				DDA11DFE1FA32FDA00990322 /* OVCURLMatcher.h in Headers */,
+				DDA11DFF1FA32FDA00990322 /* OVCModelResponseSerializer.h in Headers */,
+				DDA11E001FA32FDA00990322 /* OVCResponse.h in Headers */,
+				DDA11E011FA32FDA00990322 /* Overcoat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E121FA3339B00990322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E131FA3339B00990322 /* OVCManagedObjectSerializingContainer.h in Headers */,
+				DDA11E141FA3339B00990322 /* OVCManagedStore.h in Headers */,
+				DDA11E151FA3339B00990322 /* OVCManagedModelResponseSerializer.h in Headers */,
+				DDA11E161FA3339B00990322 /* OVCManagedHTTPSessionManager.h in Headers */,
+				DDA11E171FA3339B00990322 /* OvercoatCoreData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E261FA3340800990322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E271FA3340800990322 /* OvercoatPromiseKit.h in Headers */,
+				DDA11E281FA3340800990322 /* OVCHTTPSessionManager+PromiseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E371FA3343000990322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E381FA3343000990322 /* OvercoatReactiveCocoa.h in Headers */,
+				DDA11E391FA3343000990322 /* OVCHTTPSessionManager+ReactiveCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E451FA3345E00990322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E461FA3345E00990322 /* OvercoatSocial.h in Headers */,
+				DDA11E471FA3345E00990322 /* OVCSocialRequestSerializer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE0A79D81C8AACEB003DAA0C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -736,6 +905,99 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		DDA11DEE1FA32FDA00990322 /* Overcoat-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA11E031FA32FDA00990322 /* Build configuration list for PBXNativeTarget "Overcoat-watchOS" */;
+			buildPhases = (
+				DDA11DEF1FA32FDA00990322 /* Sources */,
+				DDA11DF61FA32FDA00990322 /* Frameworks */,
+				DDA11DF91FA32FDA00990322 /* Headers */,
+				DDA11E021FA32FDA00990322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overcoat-watchOS";
+			productName = "Overcoat-watchOS";
+			productReference = DDA11E061FA32FDA00990322 /* Overcoat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDA11E081FA3339B00990322 /* Overcoat+CoreData-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA11E191FA3339B00990322 /* Build configuration list for PBXNativeTarget "Overcoat+CoreData-watchOS" */;
+			buildPhases = (
+				DDA11E0B1FA3339B00990322 /* Sources */,
+				DDA11E0F1FA3339B00990322 /* Frameworks */,
+				DDA11E121FA3339B00990322 /* Headers */,
+				DDA11E181FA3339B00990322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA11E4F1FA3378600990322 /* PBXTargetDependency */,
+			);
+			name = "Overcoat+CoreData-watchOS";
+			productName = "Overcoat+CoreData-watchOS";
+			productReference = DDA11E1C1FA3339B00990322 /* OvercoatCoreData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDA11E1E1FA3340800990322 /* Overcoat+PromiseKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA11E2A1FA3340800990322 /* Build configuration list for PBXNativeTarget "Overcoat+PromiseKit-watchOS" */;
+			buildPhases = (
+				DDA11E211FA3340800990322 /* Sources */,
+				DDA11E231FA3340800990322 /* Frameworks */,
+				DDA11E261FA3340800990322 /* Headers */,
+				DDA11E291FA3340800990322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA11E511FA3379600990322 /* PBXTargetDependency */,
+			);
+			name = "Overcoat+PromiseKit-watchOS";
+			productName = "Overcoat+PromiseKit-watchOS";
+			productReference = DDA11E2D1FA3340800990322 /* OvercoatPromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDA11E2F1FA3343000990322 /* Overcoat+ReactiveCocoa-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA11E3B1FA3343000990322 /* Build configuration list for PBXNativeTarget "Overcoat+ReactiveCocoa-watchOS" */;
+			buildPhases = (
+				DDA11E321FA3343000990322 /* Sources */,
+				DDA11E341FA3343000990322 /* Frameworks */,
+				DDA11E371FA3343000990322 /* Headers */,
+				DDA11E3A1FA3343000990322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA11E551FA337C500990322 /* PBXTargetDependency */,
+			);
+			name = "Overcoat+ReactiveCocoa-watchOS";
+			productName = "Overcoat+PromiseKit-watchOS";
+			productReference = DDA11E3E1FA3343000990322 /* OvercoatReactiveCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDA11E401FA3345E00990322 /* Overcoat+Social-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA11E491FA3345E00990322 /* Build configuration list for PBXNativeTarget "Overcoat+Social-watchOS" */;
+			buildPhases = (
+				DDA11E411FA3345E00990322 /* Sources */,
+				DDA11E431FA3345E00990322 /* Frameworks */,
+				DDA11E451FA3345E00990322 /* Headers */,
+				DDA11E481FA3345E00990322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overcoat+Social-watchOS";
+			productName = "Overcoat+Social-watchOS";
+			productReference = DDA11E4C1FA3345F00990322 /* OvercoatSocial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		FE0A79DA1C8AACEB003DAA0C /* Overcoat+CoreData-OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE0A79E21C8AACEB003DAA0C /* Build configuration list for PBXNativeTarget "Overcoat+CoreData-OSX" */;
@@ -1043,19 +1305,59 @@
 				FEEEF5851C8996F4003BB99E /* OvercoatTests-tvOS */,
 				FEEEF5C51C8AA9B0003BB99E /* Overcoat-OSX */,
 				FEEEF5E61C8AAAA8003BB99E /* Overcoat-iOS */,
+				DDA11DEE1FA32FDA00990322 /* Overcoat-watchOS */,
 				FE0A79DA1C8AACEB003DAA0C /* Overcoat+CoreData-OSX */,
 				FE0A79F51C8AAD96003DAA0C /* Overcoat+CoreData-iOS */,
+				DDA11E081FA3339B00990322 /* Overcoat+CoreData-watchOS */,
 				FE0A7A0E1C8AADF7003DAA0C /* Overcoat+PromiseKit-OSX */,
 				FE0A7A231C8AAED0003DAA0C /* Overcoat+PromiseKit-iOS */,
+				DDA11E1E1FA3340800990322 /* Overcoat+PromiseKit-watchOS */,
 				FE10413E1C8AAFA700C3A1FD /* Overcoat+ReactiveCocoa-OSX */,
 				FE10412C1C8AAFA200C3A1FD /* Overcoat+ReactiveCocoa-iOS */,
+				DDA11E2F1FA3343000990322 /* Overcoat+ReactiveCocoa-watchOS */,
 				FE10416D1C8AB0EB00C3A1FD /* Overcoat+Social-OSX */,
 				FE10415C1C8AB06C00C3A1FD /* Overcoat+Social-iOS */,
+				DDA11E401FA3345E00990322 /* Overcoat+Social-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DDA11E021FA32FDA00990322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E181FA3339B00990322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E291FA3340800990322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E3A1FA3343000990322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E481FA3345E00990322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE0A79D91C8AACEB003DAA0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1303,6 +1605,53 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DDA11DEF1FA32FDA00990322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11DF01FA32FDA00990322 /* OVCResponse.m in Sources */,
+				DDA11DF11FA32FDA00990322 /* OVCURLMatcher.m in Sources */,
+				DDA11DF21FA32FDA00990322 /* NSDictionary+Overcoat.m in Sources */,
+				DDA11DF31FA32FDA00990322 /* OVCModelResponseSerializer.m in Sources */,
+				DDA11DF41FA32FDA00990322 /* OVCHTTPSessionManager.m in Sources */,
+				DDA11DF51FA32FDA00990322 /* NSError+OVCResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E0B1FA3339B00990322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E0C1FA3339B00990322 /* OVCManagedStore.m in Sources */,
+				DDA11E0D1FA3339B00990322 /* OVCManagedHTTPSessionManager.m in Sources */,
+				DDA11E0E1FA3339B00990322 /* OVCManagedModelResponseSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E211FA3340800990322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E221FA3340800990322 /* OVCHTTPSessionManager+PromiseKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E321FA3343000990322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E331FA3343000990322 /* OVCHTTPSessionManager+ReactiveCocoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA11E411FA3345E00990322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA11E421FA3345E00990322 /* OVCSocialRequestSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE0A79D61C8AACEB003DAA0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1462,6 +1811,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DDA11E4F1FA3378600990322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA11DEE1FA32FDA00990322 /* Overcoat-watchOS */;
+			targetProxy = DDA11E4E1FA3378600990322 /* PBXContainerItemProxy */;
+		};
+		DDA11E511FA3379600990322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA11DEE1FA32FDA00990322 /* Overcoat-watchOS */;
+			targetProxy = DDA11E501FA3379600990322 /* PBXContainerItemProxy */;
+		};
+		DDA11E551FA337C500990322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA11DEE1FA32FDA00990322 /* Overcoat-watchOS */;
+			targetProxy = DDA11E541FA337C500990322 /* PBXContainerItemProxy */;
+		};
 		FE0A79ED1C8AAD2D003DAA0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FEEEF5C51C8AA9B0003BB99E /* Overcoat-OSX */;
@@ -1495,6 +1859,246 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		DDA11E041FA32FDA00990322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.Overcoat;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDA11E051FA32FDA00990322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.Overcoat;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDA11E1A1FA3339B00990322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatCoreData;
+				PRODUCT_NAME = OvercoatCoreData;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDA11E1B1FA3339B00990322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatCoreData;
+				PRODUCT_NAME = OvercoatCoreData;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDA11E2B1FA3340800990322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatPromiseKit;
+				PRODUCT_NAME = OvercoatPromiseKit;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDA11E2C1FA3340800990322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatPromiseKit;
+				PRODUCT_NAME = OvercoatPromiseKit;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDA11E3C1FA3343000990322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatReactiveCocoa;
+				PRODUCT_NAME = OvercoatReactiveCocoa;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDA11E3D1FA3343000990322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatReactiveCocoa;
+				PRODUCT_NAME = OvercoatReactiveCocoa;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDA11E4A1FA3345E00990322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatSocial;
+				PRODUCT_NAME = OvercoatSocial;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDA11E4B1FA3345E00990322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overcoat.OvercoatSocial;
+				PRODUCT_NAME = OvercoatSocial;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		FE0A79E01C8AACEB003DAA0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2140,6 +2744,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DDA11E031FA32FDA00990322 /* Build configuration list for PBXNativeTarget "Overcoat-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA11E041FA32FDA00990322 /* Debug */,
+				DDA11E051FA32FDA00990322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA11E191FA3339B00990322 /* Build configuration list for PBXNativeTarget "Overcoat+CoreData-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA11E1A1FA3339B00990322 /* Debug */,
+				DDA11E1B1FA3339B00990322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA11E2A1FA3340800990322 /* Build configuration list for PBXNativeTarget "Overcoat+PromiseKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA11E2B1FA3340800990322 /* Debug */,
+				DDA11E2C1FA3340800990322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA11E3B1FA3343000990322 /* Build configuration list for PBXNativeTarget "Overcoat+ReactiveCocoa-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA11E3C1FA3343000990322 /* Debug */,
+				DDA11E3D1FA3343000990322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA11E491FA3345E00990322 /* Build configuration list for PBXNativeTarget "Overcoat+Social-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA11E4A1FA3345E00990322 /* Debug */,
+				DDA11E4B1FA3345E00990322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FE0A79E21C8AACEB003DAA0C /* Build configuration list for PBXNativeTarget "Overcoat+CoreData-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
